@@ -1,0 +1,31 @@
+Ejercicio 1:
+
+a - Describe dos usos o funciones que proporciona la declaración DOCTYPE en una página web.
+identifica la version HTML empleada en la pagina web.
+ayuda a una herramienta de validacion a realizar la validacion y detectar los errores.
+
+b - Para que se utilizan las siguientes etiquetas:
+<head> </head>     contiene meta informacion sobre la pagina HTML. es la cabecera de la web. se vinculan archivos externos, ej:archivos CSS y JS. es un subelemento de <html>
+<title> </title>     especifica un titulo para la pagina HTML (se muestra en la barra de titulo  del navegador). es un subelemento de <head>. no tiene estilos.
+<meta>     es un subelemento de <head>. sirve para especificar metadatos, ej: autor, descripcion, etc.
+<style> </style>     es un subelemento de <head>. se usa para dar estilos a la pagina web. es un atributo de todos los elementos que permiten incorporar estilos.
+<body> </body>     es un subelemento de <html>. define el cuerpo del documento y es un contenedor de todos los contenidos visibles, como encabezados, parrafos, imagenes, hipervinculos, tablas, listas, etc.
+<h1>,<h2>,<h3>,<h4>,<h5>,<h6>     definen encabezados, donde h1 representa el de mayor jerarquia. 
+<a>     define un hipervinculo (para insertar un enlace). 
+<strong>     define un texto importante, permite resaltar el texto.
+<br>     elemento sin cierre. se usa para representar saltos de linea.
+<ul>     para agrupar un conjunto de elementos relacionados en lista pero de manera desordenada.
+<li>     para determinar cada elemento de la lista.
+<p>     define un parrafo.
+<span>     se utiliza como contenedor de otros elementos HTML. no tiene atributos requeridos.
+<table> </table>     representa datos en dos o mas dimensiones. es el elemento que contiene todos los elementos de la tabla.
+<tr> </tr>     para insertar una fila de una tabla.
+<td> </td>     para definir una celda de una tabla. puede contener texto, imagenes, listas, enlaces, otras tablas, etc.
+<img>     se utiliza para incrustar una imagen en una pagina HTML.
+
+c- La etiqueta <script> puede ir dentro de las etiquetas de <body> o <head>, hay alguna diferencia donde pueda ir?
+
+esta etiqueta puede aparecer cualquier numero de veces en el HEAD o BODY de un documento html. lo que usualmente se hace es colocar los scripts antes del cierre del body. porque generalmente Javascript tiene que 
+ejecutarse cuando el navegador ha procesado el HTML. No sirve de mucho que el navegador procese el Javascript cuando el usario todavía no ha podido ver el contenido de la página. Además, Javascript muchas veces debe 
+operar con los elementos de la página, y ésto se tiene que hacer cuando los elementos han sido cargados por el navegador. No obstante, a veces es imposible enlazar el código JavaScript al final de la página, como 
+por ejemplo cuando el código modifica el contenido de la página entonces se lo pone en el head.
